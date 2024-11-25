@@ -1,0 +1,89 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #204030; /* Dark green background */
+  color: white; /* Default text color for readability */
+}
+
+.calendar-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.calendar-header h1 {
+  font-size: 1.5rem;
+  color: #00BF63; /* Primary green for header */
+}
+
+.calendar-header .pagination {
+  display: flex;
+  gap: 10px;
+}
+
+.pagination button {
+  background-color: #00BF63; /* Primary green */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #3a6044; /* Slightly lighter green on hover */
+}
+
+.event-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.event-item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border for separation */
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #332422; /* Contrast brown for event background */
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.event-item:hover {
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Subtle shadow on hover */
+  background-color: #3a6044; /* Slightly lighter green on hover */
+}
+
+.event-date {
+  color: #ffffff; /* Secondary color for date text */
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.event-title {
+  color: #00BF63; /* Primary green for event titles */
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+.event-location {
+  font-size: 0.9rem;
+  color: white; /* White for location text */
+  margin-bottom: 5px;
+}
