@@ -4,7 +4,7 @@ const events = [
   { date: '2024-12-12 18:00', title: 'Hengellisten laulujen ilta', location: 'Sarahovi, Laukaantie 6, 41340 Laukaa', url: '' },
   { date: '2024-12-14 15:00', title: 'Toivon Cafe', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/toivon-cafe/' },
   { date: '2024-12-15 16:00', title: 'Yhteysilta', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/yhteysilta/' },
-  { date: '2025-02-04 18:00', title: 'Alfa', location: 'Keskustie 9, 41340 Laukaa', url: '' },
+  { date: '2025-02-04 18:00', title: 'Alfa', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/alfa/' },
 ];
 
 const eventList = document.getElementById('eventList');
