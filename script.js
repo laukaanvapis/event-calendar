@@ -15,8 +15,12 @@ let currentPage = 0;
 
 function renderEvents() {
   const now = new Date();
+  const bufferTime = 6 * 60 * 60 * 1000;
   const filteredEvents = events
-    .filter(event => new Date(event.date) > now)
+    .filter(event => {
+      const eventDate = new Date(event.date);
+      return eventDate.getTime() + bufferTime > now.getTime(); // Keep events visible for 6 hours after start
+    })
     .sort((a, b) => new Date(a.date) - new Date(b.date));
 
   const startIndex = currentPage * eventsPerPage;
