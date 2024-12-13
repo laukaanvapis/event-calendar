@@ -1,5 +1,4 @@
 const events = [
-const events = [
   { date: '2024-12-03 09:30', title: 'Perhekerho', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/perhekerho/' },
   { date: '2024-12-07 15:00', title: 'Toivon Cafe', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/toivon-cafe/' },
   { date: '2024-12-12 18:00', title: 'Hengellisten laulujen ilta', location: 'Sarahovi, Laukaantie 6, 41340 Laukaa', url: '' },
@@ -53,10 +52,6 @@ const events = [
   { date: '2025-05-22 18:00', title: 'Hengellisten laulujen ilta', location: 'Sarahovi, Laukaantie 6, 41340 Laukaa', url: '' },
   { date: '2025-05-25 16:00', title: 'Yhteysilta', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/yhteysilta/' },
   { date: '2025-06-01 16:00', title: 'Yhteisöpäivä Kiponniemessä', location: 'Kiponniementie 84, 41940 Jyväskylä', url: 'https://kiponniemi.fi/' },
-];
-
-];
-
 ];
 
 const eventList = document.getElementById('eventList');
