@@ -19,6 +19,12 @@ body {
   margin-bottom: 21px;
 }
 
+.calendar-header-left {
+  display: flex;
+  align-items: center; /* Keep logo and title aligned */
+  gap: 14px; /* Ensures 14px space between logo and title */
+}
+
 .calendar-logo {
   height: 48px !important;
   width: 48px !important;
