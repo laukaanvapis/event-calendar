@@ -17,6 +17,13 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 21px;
+  gap: 14px;
+}
+
+.calendar-logo {
+  height: 48px;
+  width: 48px;
+  object-fit: contain; /* Ensure the image scales properly */
 }
 
 .calendar-header h1 {
@@ -26,7 +33,7 @@ body {
 
 .calendar-header .pagination {
   display: flex;
-  gap: 10px;
+  gap: 14px;
 }
 
 .pagination button {
@@ -82,8 +89,8 @@ body {
 
 .event-title {
   color: #0E4311; /* Primary green for event titles */
-  font-size: 1rem;
-  font-weight: 800;
+  font-size: 1.1rem;
+  font-weight: 650;
   margin: 7px 0;
 }
 
@@ -111,6 +118,7 @@ body {
 
   .event-title {
     font-weight: 600; /* Slightly less bold on mobile */
+    font-size: 1.0rem;
   }
 
   .event-location {
