@@ -17,13 +17,13 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 21px;
-  gap: 14px !important;
 }
 
 .calendar-logo {
   height: 48px !important;
   width: 48px !important;
   object-fit: contain; /* Ensure the image scales properly */
+  margin-right: 14px;
 }
 
 .calendar-header h1 {
