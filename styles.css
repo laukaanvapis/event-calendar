@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  padding: 21px;
+  padding: 21px 28px;
   background: url('https://raw.githubusercontent.com/laukaanvapis/event-calendar/refs/heads/main/Grain.png') no-repeat center center fixed;
   background-size: cover;
   color: white; /* Default text color for readability */
@@ -34,7 +34,7 @@ body {
   color: white;
   border: none;
   padding: 14px 24px;
-  font-size: 0.7rem;
+  font-size: 1rem;
   border-radius: 7px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -43,7 +43,7 @@ body {
 .pagination button:disabled {
   background-color: #FBFFFA;
   border: 1px solid #D2D2D2;
-  font-color: #D2D2D2;
+  color: #D2D2D2;
   cursor: not-allowed;
 }
 
@@ -83,14 +83,14 @@ body {
 .event-title {
   color: #0E4311; /* Primary green for event titles */
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 700;
   margin: 7px 0;
 }
 
 .event-location {
   font-size: 1rem;
   color: #0E4311; /* White for location text */
-  margin-bottom: 7px;
+  font-weight: 400;
 }
 
 @media (max-width: 768px) {
@@ -101,16 +101,18 @@ body {
     width: 100%;
     background: url('https://raw.githubusercontent.com/laukaanvapis/event-calendar/refs/heads/main/Grain.png') no-repeat center center fixed;
     background-size: cover;
-    padding: 7px 14px;
+    padding: 14px 28px;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for separation */
     display: flex;
     justify-content: space-between; /* Spread the buttons apart */
     z-index: 100; /* Ensure it appears above other elements */
     box-sizing: border-box;
   }
-
+  .calendar-header {
+    margin-bottom: 14px;
+  }
   .pagination button {
     flex: 1; /* Make buttons take equal space */
-    margin: 0 7px; /* Add spacing between buttons */
+    margin: 0 14px; /* Add spacing between buttons */
   }
 }
