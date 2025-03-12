@@ -1,8 +1,9 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  padding: 20px;
-  background-color: #204030; /* Dark green background */
+  padding: 21px;
+  background: url('https://raw.githubusercontent.com/laukaanvapis/event-calendar/refs/heads/main/Grain.png') no-repeat center center fixed;
+  background-size: cover;
   color: white; /* Default text color for readability */
 }
 
@@ -15,12 +16,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
 }
 
 .calendar-header h1 {
-  font-size: 1.5rem;
-  color: #00BF63; /* Primary green for header */
+  font-size: 1.75rem;
+  color: #0E4311; /* Primary green for header */
 }
 
 .calendar-header .pagination {
@@ -32,20 +33,22 @@ body {
   background-color: #00BF63; /* Primary green */
   color: white;
   border: none;
-  padding: 10px 15px;
-  font-size: 0.9rem;
-  border-radius: 5px;
+  padding: 14px 24px;
+  font-size: 0.7rem;
+  border-radius: 7px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .pagination button:disabled {
-  background-color: #ccc;
+  background-color: #FBFFFA;
+  border: 1px solid #D2D2D2;
+  font-color: #D2D2D2;
   cursor: not-allowed;
 }
 
 .pagination button:hover:not(:disabled) {
-  background-color: #3a6044; /* Slightly lighter green on hover */
+  background-color: #116F21; /* Slightly lighter green on hover */
 }
 
 .event-list {
@@ -56,36 +59,38 @@ body {
 .event-item {
   display: flex;
   flex-direction: column;
-  padding: 15px;
-  border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border for separation */
-  border-radius: 5px;
-  margin-bottom: 10px;
-  background-color: #332422; /* Contrast brown for event background */
-  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  padding: 14px;
+  border: 1px solid #D9FFD7; /* Subtle border for separation */
+  border-radius: 7px;
+  margin-bottom: 14px;
+  background-color: #FBFFFA; /* light green for event background */
+  box-shadow: 7px 14px 40px 0px rgba(14, 67, 17, 0.15);
   cursor: pointer;
 }
 
 .event-item:hover {
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Subtle shadow on hover */
-  background-color: #3a6044; /* Slightly lighter green on hover */
+  box-shadow: 7px 14px 40px 0px rgba(14, 67, 17, 0.15); /* Subtle shadow on hover */
+  border: 1px solid #D3FEA78;
+  background-color: #EBFFE8; /* Slightly lighter green on hover */
 }
 
 .event-date {
-  color: #ffffff; /* Secondary color for date text */
+  color: #0E4311; /* Secondary color for date text */
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .event-title {
-  color: #00BF63; /* Primary green for event titles */
-  font-size: 1.2rem;
-  margin: 5px 0;
+  color: #0E4311; /* Primary green for event titles */
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 7px 0;
 }
 
 .event-location {
-  font-size: 0.9rem;
-  color: white; /* White for location text */
-  margin-bottom: 5px;
+  font-size: 1rem;
+  color: #0E4311; /* White for location text */
+  margin-bottom: 7px;
 }
 
 @media (max-width: 768px) {
@@ -94,8 +99,9 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #204030; /* Same as the body background */
-    padding: 10px 15px;
+    background: url('https://raw.githubusercontent.com/laukaanvapis/event-calendar/refs/heads/main/Grain.png') no-repeat center center fixed;
+    background-size: cover;
+    padding: 7px 14px;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for separation */
     display: flex;
     justify-content: space-between; /* Spread the buttons apart */
@@ -105,6 +111,6 @@ body {
 
   .pagination button {
     flex: 1; /* Make buttons take equal space */
-    margin: 0 5px; /* Add spacing between buttons */
+    margin: 0 7px; /* Add spacing between buttons */
   }
 }
