@@ -107,12 +107,17 @@ body {
 
 @media (max-width: 768px) {
    body {
-    padding: 14px; /* Reduce padding for mobile */
+    padding: 14px 28px; /* Reduce padding for mobile */
   }
 
   .calendar-header {
     margin-bottom: 14px; /* Reduce bottom margin for mobile */
   }
+  
+  .calendar-header-left {
+    justify-content: space-between;
+  }
+  
   .calendar-header h1 {
   font-size: 1.25rem;
   color: #0E4311; /* Primary green for header */
