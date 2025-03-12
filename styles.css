@@ -82,7 +82,7 @@ body {
   border: 1px solid #D9FFD7; /* Subtle border for separation */
   border-radius: 7px;
   margin-bottom: 14px;
-  background-color: rgba(251, 255, 250, 0.9); /* light green for event background */
+  background-color: rgba(251, 255, 250, 0.85); /* light green for event background */
   box-shadow: 7px 14px 40px 0px rgba(14, 67, 17, 0.15);
   cursor: pointer;
 }
@@ -90,7 +90,7 @@ body {
 .event-item:hover {
   box-shadow: 7px 14px 40px 0px rgba(14, 67, 17, 0.15); /* Subtle shadow on hover */
   border: 1px solid #D3FEA78;
-  background-color: rgba(235, 255, 232, 0.9); /* Slightly lighter green on hover */
+  background-color: rgba(235, 255, 232, 0.85); /* Slightly lighter green on hover */
 }
 
 .event-date {
