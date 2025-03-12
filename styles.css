@@ -54,6 +54,7 @@ body {
 
 .pagination button:disabled {
   background-color: #FBFFFA;
+  padding: 13px 23px;
   border: 1px solid #D2D2D2;
   color: #D2D2D2;
   cursor: not-allowed;
@@ -61,6 +62,12 @@ body {
 
 .pagination button:hover:not(:disabled) {
   background-color: #116F21; /* Slightly lighter green on hover */
+}
+
+/* Reset button color after click (on active and focus) */
+.pagination button:active,
+.pagination button:focus {
+  background-color: #00BF63; /* Reset to default color after click */
 }
 
 .event-list {
