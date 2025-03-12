@@ -20,9 +20,9 @@ body {
 }
 
 .calendar-header-left {
-  display: flex;
-  align-items: center; /* Keep logo and title aligned */
-  gap: 14px; /* Ensures 14px space between logo and title */
+  display: flex !important;
+  align-items: center !important; /* Keep logo and title aligned */
+  gap: 14px !important; /* Ensures 14px space between logo and title */
 }
 
 .calendar-logo {
