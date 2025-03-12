@@ -77,23 +77,45 @@ body {
 .event-date {
   color: #0E4311; /* Secondary color for date text */
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .event-title {
   color: #0E4311; /* Primary green for event titles */
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 800;
   margin: 7px 0;
 }
 
 .event-location {
   font-size: 1rem;
   color: #0E4311; /* White for location text */
-  font-weight: 400;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {
+   body {
+    padding: 14px; /* Reduce padding for mobile */
+  }
+
+  .calendar-header {
+    margin-bottom: 14px; /* Reduce bottom margin for mobile */
+  }
+  .calendar-header h1 {
+  font-size: 1.25rem;
+  color: #0E4311; /* Primary green for header */
+}
+  .event-date {
+    font-weight: 400; /* Keep it normal on mobile */
+  }
+
+  .event-title {
+    font-weight: 600; /* Slightly less bold on mobile */
+  }
+
+  .event-location {
+    font-weight: 400; /* Normal weight for readability */
+  }
   .pagination {
     position: fixed;
     bottom: 0;
@@ -107,9 +129,6 @@ body {
     justify-content: space-between; /* Spread the buttons apart */
     z-index: 100; /* Ensure it appears above other elements */
     box-sizing: border-box;
-  }
-  .calendar-header {
-    margin-bottom: 14px;
   }
   .pagination button {
     flex: 1; /* Make buttons take equal space */
