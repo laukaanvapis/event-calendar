@@ -27,7 +27,7 @@ const events = [
   { date: '2025-03-11 09:30', title: 'Perhekerho', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/perhekerho/' },
   { date: '2025-03-11 18:00', title: 'Alfa', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/alfa/' },
   { date: '2025-03-14 18:00', title: 'Pelejä ja pannareita', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/perhekerho/' },
-  { date: '2025-03-15 18:00', title: 'Alfa', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/alfa/' },
+  { date: '2025-03-15 12:30', title: 'Alfa', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/alfa/' },
   { date: '2025-03-16 16:00', title: 'Yhteysilta', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/yhteysilta/' },
   { date: '2025-03-18 18:00', title: 'Alfa', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/alfa/' },
   { date: '2025-03-20 18:00', title: 'Hengellisten laulujen ilta', location: 'Sarahovi, Laukaantie 6, 41340 Laukaa', url: '' },
