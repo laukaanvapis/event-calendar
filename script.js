@@ -13,7 +13,7 @@ const events = [
   { date: '2025-04-18 15:00', title: 'Toivon Cafe', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/toivon-cafe/' },
   { date: '2025-04-22 09:30', title: 'Perhekerho', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/perhekerho/' },
   { date: '2025-04-24 18:00', title: 'Hengellisten laulujen ilta', location: 'Sarahovi, Laukaantie 6, 41340 Laukaa', url: '' },
-  { date: '2025-04-27 15:00', title: 'Majatalo-ilta', location: 'Laukaan Kirkko, Jokiniementie 10, 41340 Laukaa', url: '' },
+  { date: '2025-04-27 15:00', title: 'Majatalo-ilta', location: 'Laukaan Kirkko, Jokiniementie 10, 41340 Laukaa', url: 'https://www.laukaanseurakunta.fi/tapahtumat/2025-04-27/majataloilta' },
   { date: '2025-05-03 15:00', title: 'Toivon Cafe', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/toivon-cafe/' },
   { date: '2025-05-06 09:30', title: 'Perhekerho', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/perhekerho/' },
   { date: '2025-05-09 18:00', title: 'Pelejä ja pannareita', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/perhekerho/' },
