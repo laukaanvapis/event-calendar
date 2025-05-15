@@ -22,6 +22,13 @@ const events = [
   { date: '2025-05-22 18:00', title: 'Hengellisten laulujen ilta', location: 'Sarahovi, Laukaantie 6, 41340 Laukaa', url: '' },
   { date: '2025-05-25 16:00', title: 'Yhteysilta', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/yhteysilta/' },
   { date: '2025-06-01 16:00', title: 'Yhteisöpäivä Kiponniemessä', location: 'Kiponniementie 84, 41940 Jyväskylä', url: 'https://laukaanvapis.fi/yhteisopaiva-kiponniemessa/' },
+  { date: '2025-06-08 16:00', title: 'Yhteysilta', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/yhteysilta/' },
+  { date: '2025-06-12', endDate: '2025-06-15',  title: 'Vapaakirkon kesäjuhlat', location: 'Teopolis, Sairaalankatu 57, 33100 Tampere', url: '' },
+  { date: '2025-06-17 18:00', title: 'Puistopiknik', location: 'Laukaan satamapuisto, 41340 Laukaa', url: 'https://laukaanvapis.fi/koko-perheen-puistopiknik/' },
+  { date: '2025-08-05 18:00', title: 'Puistopiknik', location: 'Laukaan satamapuisto, 41340 Laukaa', url: 'https://laukaanvapis.fi/koko-perheen-puistopiknik/' },
+  { date: '2025-08-09 15:00', title: 'Toivon Cafe', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/toivon-cafe/' },
+  { date: '2025-08-17 16:00', title: 'Yhteysilta', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/yhteysilta/' },
+  { date: '2025-08-23 15:00', title: 'Toivon Cafe', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/toivon-cafe/' },
 ];
 
 const eventList = document.getElementById('eventList');
