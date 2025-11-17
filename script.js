@@ -35,7 +35,7 @@ const events = [
   { date: '2025-12-09 09:30', title: 'Perhekerho', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/perhekerho/' },
   { date: '2025-12-13 15:00', title: 'Joulujuhla', location: 'Keskustie 9, 41340 Laukaa', url: '' },
   { date: '2025-12-20 18:00', title: 'Nuortenilta', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/perhekerho/' },
-  { date: '2025-12-21 16:00', title: 'Yhteysilta', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/yhteysilta/' },
+  { date: '2025-12-24 16:00', title: 'Jouluaaton yhteinen nyyttikestijuhla', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/joulun-yhteinen-nyyttikestijuhla/' },
 ];
 
 const eventList = document.getElementById('eventList');
@@ -109,6 +109,7 @@ nextBtn.addEventListener('click', () => {
 });
 
 renderEvents();
+
 
 
 
