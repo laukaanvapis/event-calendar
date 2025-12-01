@@ -33,7 +33,8 @@ const events = [
   { date: '2025-12-05 18:00', title: 'Pelejä ja pannareita', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/perhekerho/' },
   { date: '2025-12-06 18:00', title: 'Nuortenilta', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/perhekerho/' },
   { date: '2025-12-09 09:30', title: 'Perhekerho', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/perhekerho/' },
-  { date: '2025-12-13 15:00', title: 'Joulujuhla', location: 'Keskustie 9, 41340 Laukaa', url: '' },
+  { date: '2025-12-13 15:00', title: 'Joulujuhla', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/joulu/' },
+  { date: '2025-12-18 18:00', title: 'Joululaulujen ilta', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/joulu/' },
   { date: '2025-12-20 18:00', title: 'Nuortenilta', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/perhekerho/' },
   { date: '2025-12-24 16:00', title: 'Jouluaaton yhteinen nyyttikestijuhla', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/joulun-yhteinen-nyyttikestijuhla/' },
 ];
@@ -109,6 +110,7 @@ nextBtn.addEventListener('click', () => {
 });
 
 renderEvents();
+
 
 
 
