@@ -1,5 +1,5 @@
 const events = [
-{ date: '2026-01-06 18:00', title: 'Yhteysilta', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/yhteysilta/' },
+{ date: '2026-01-06 16:00', title: 'Yhteysilta', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/yhteysilta/' },
 { date: '2026-01-10 15:00', title: 'Toivon Cafe', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/toivon-cafe/' },
 { date: '2026-01-17 18:00', title: 'Nuortenilta', location: 'Keskustie 9, 41340 Laukaa', url: 'https://laukaanvapis.fi/perhekerho/' },
 { date: '2026-01-18 18:00', title: 'Kristittyjen ykseyden rukoustilaisuus', location: 'Arwidssonintie 15-17, 41340 Laukaa', url: 'https://www.laukaankotikulma.com/toiminta/' },
@@ -120,6 +120,7 @@ nextBtn.addEventListener('click', () => {
 });
 
 renderEvents();
+
 
 
 
